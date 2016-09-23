@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02B710C11D9529AB0093ED76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B710C01D9529AB0093ED76 /* main.m */; };
+		02B710C41D9529AB0093ED76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B710C31D9529AB0093ED76 /* AppDelegate.m */; };
+		02B710C71D9529AB0093ED76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B710C61D9529AB0093ED76 /* ViewController.m */; };
+		02B710CA1D9529AB0093ED76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02B710C81D9529AB0093ED76 /* Main.storyboard */; };
+		02B710CD1D9529AB0093ED76 /* second_leve.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02B710CB1D9529AB0093ED76 /* second_leve.xcdatamodeld */; };
+		02B710CF1D9529AB0093ED76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02B710CE1D9529AB0093ED76 /* Assets.xcassets */; };
+		02B710D21D9529AB0093ED76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02B710D01D9529AB0093ED76 /* LaunchScreen.storyboard */; };
+		02B710DD1D9529AB0093ED76 /* second_leveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B710DC1D9529AB0093ED76 /* second_leveTests.m */; };
+		02B710E81D9529AB0093ED76 /* second_leveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B710E71D9529AB0093ED76 /* second_leveUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02B710D91D9529AB0093ED76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02B710B41D9529AB0093ED76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02B710BB1D9529AB0093ED76;
+			remoteInfo = "second leve";
+		};
+		02B710E41D9529AB0093ED76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02B710B41D9529AB0093ED76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02B710BB1D9529AB0093ED76;
+			remoteInfo = "second leve";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02B710BC1D9529AB0093ED76 /* second leve.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "second leve.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02B710C01D9529AB0093ED76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02B710C21D9529AB0093ED76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		02B710C31D9529AB0093ED76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		02B710C51D9529AB0093ED76 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		02B710C61D9529AB0093ED76 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		02B710C91D9529AB0093ED76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02B710CC1D9529AB0093ED76 /* second_leve.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = second_leve.xcdatamodel; sourceTree = "<group>"; };
+		02B710CE1D9529AB0093ED76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02B710D11D9529AB0093ED76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02B710D31D9529AB0093ED76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02B710D81D9529AB0093ED76 /* second leveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "second leveTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02B710DC1D9529AB0093ED76 /* second_leveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = second_leveTests.m; sourceTree = "<group>"; };
+		02B710DE1D9529AB0093ED76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02B710E31D9529AB0093ED76 /* second leveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "second leveUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02B710E71D9529AB0093ED76 /* second_leveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = second_leveUITests.m; sourceTree = "<group>"; };
+		02B710E91D9529AB0093ED76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02B710B91D9529AB0093ED76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02B710D51D9529AB0093ED76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02B710E01D9529AB0093ED76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02B710B31D9529AB0093ED76 = {
+			isa = PBXGroup;
+			children = (
+				02B710BE1D9529AB0093ED76 /* second leve */,
+				02B710DB1D9529AB0093ED76 /* second leveTests */,
+				02B710E61D9529AB0093ED76 /* second leveUITests */,
+				02B710BD1D9529AB0093ED76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02B710BD1D9529AB0093ED76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02B710BC1D9529AB0093ED76 /* second leve.app */,
+				02B710D81D9529AB0093ED76 /* second leveTests.xctest */,
+				02B710E31D9529AB0093ED76 /* second leveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02B710BE1D9529AB0093ED76 /* second leve */ = {
+			isa = PBXGroup;
+			children = (
+				02B710C21D9529AB0093ED76 /* AppDelegate.h */,
+				02B710C31D9529AB0093ED76 /* AppDelegate.m */,
+				02B710C51D9529AB0093ED76 /* ViewController.h */,
+				02B710C61D9529AB0093ED76 /* ViewController.m */,
+				02B710C81D9529AB0093ED76 /* Main.storyboard */,
+				02B710CE1D9529AB0093ED76 /* Assets.xcassets */,
+				02B710D01D9529AB0093ED76 /* LaunchScreen.storyboard */,
+				02B710D31D9529AB0093ED76 /* Info.plist */,
+				02B710CB1D9529AB0093ED76 /* second_leve.xcdatamodeld */,
+				02B710BF1D9529AB0093ED76 /* Supporting Files */,
+			);
+			path = "second leve";
+			sourceTree = "<group>";
+		};
+		02B710BF1D9529AB0093ED76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02B710C01D9529AB0093ED76 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		02B710DB1D9529AB0093ED76 /* second leveTests */ = {
+			isa = PBXGroup;
+			children = (
+				02B710DC1D9529AB0093ED76 /* second_leveTests.m */,
+				02B710DE1D9529AB0093ED76 /* Info.plist */,
+			);
+			path = "second leveTests";
+			sourceTree = "<group>";
+		};
+		02B710E61D9529AB0093ED76 /* second leveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				02B710E71D9529AB0093ED76 /* second_leveUITests.m */,
+				02B710E91D9529AB0093ED76 /* Info.plist */,
+			);
+			path = "second leveUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02B710BB1D9529AB0093ED76 /* second leve */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02B710EC1D9529AB0093ED76 /* Build configuration list for PBXNativeTarget "second leve" */;
+			buildPhases = (
+				02B710B81D9529AB0093ED76 /* Sources */,
+				02B710B91D9529AB0093ED76 /* Frameworks */,
+				02B710BA1D9529AB0093ED76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "second leve";
+			productName = "second leve";
+			productReference = 02B710BC1D9529AB0093ED76 /* second leve.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02B710D71D9529AB0093ED76 /* second leveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02B710EF1D9529AB0093ED76 /* Build configuration list for PBXNativeTarget "second leveTests" */;
+			buildPhases = (
+				02B710D41D9529AB0093ED76 /* Sources */,
+				02B710D51D9529AB0093ED76 /* Frameworks */,
+				02B710D61D9529AB0093ED76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02B710DA1D9529AB0093ED76 /* PBXTargetDependency */,
+			);
+			name = "second leveTests";
+			productName = "second leveTests";
+			productReference = 02B710D81D9529AB0093ED76 /* second leveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02B710E21D9529AB0093ED76 /* second leveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02B710F21D9529AB0093ED76 /* Build configuration list for PBXNativeTarget "second leveUITests" */;
+			buildPhases = (
+				02B710DF1D9529AB0093ED76 /* Sources */,
+				02B710E01D9529AB0093ED76 /* Frameworks */,
+				02B710E11D9529AB0093ED76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02B710E51D9529AB0093ED76 /* PBXTargetDependency */,
+			);
+			name = "second leveUITests";
+			productName = "second leveUITests";
+			productReference = 02B710E31D9529AB0093ED76 /* second leveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02B710B41D9529AB0093ED76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = com.zhangyi;
+				TargetAttributes = {
+					02B710BB1D9529AB0093ED76 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					02B710D71D9529AB0093ED76 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 02B710BB1D9529AB0093ED76;
+					};
+					02B710E21D9529AB0093ED76 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 02B710BB1D9529AB0093ED76;
+					};
+				};
+			};
+			buildConfigurationList = 02B710B71D9529AB0093ED76 /* Build configuration list for PBXProject "second leve" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02B710B31D9529AB0093ED76;
+			productRefGroup = 02B710BD1D9529AB0093ED76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02B710BB1D9529AB0093ED76 /* second leve */,
+				02B710D71D9529AB0093ED76 /* second leveTests */,
+				02B710E21D9529AB0093ED76 /* second leveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02B710BA1D9529AB0093ED76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B710D21D9529AB0093ED76 /* LaunchScreen.storyboard in Resources */,
+				02B710CF1D9529AB0093ED76 /* Assets.xcassets in Resources */,
+				02B710CA1D9529AB0093ED76 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02B710D61D9529AB0093ED76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02B710E11D9529AB0093ED76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02B710B81D9529AB0093ED76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B710C71D9529AB0093ED76 /* ViewController.m in Sources */,
+				02B710C41D9529AB0093ED76 /* AppDelegate.m in Sources */,
+				02B710C11D9529AB0093ED76 /* main.m in Sources */,
+				02B710CD1D9529AB0093ED76 /* second_leve.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02B710D41D9529AB0093ED76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B710DD1D9529AB0093ED76 /* second_leveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02B710DF1D9529AB0093ED76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B710E81D9529AB0093ED76 /* second_leveUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02B710DA1D9529AB0093ED76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02B710BB1D9529AB0093ED76 /* second leve */;
+			targetProxy = 02B710D91D9529AB0093ED76 /* PBXContainerItemProxy */;
+		};
+		02B710E51D9529AB0093ED76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02B710BB1D9529AB0093ED76 /* second leve */;
+			targetProxy = 02B710E41D9529AB0093ED76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02B710C81D9529AB0093ED76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02B710C91D9529AB0093ED76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		02B710D01D9529AB0093ED76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02B710D11D9529AB0093ED76 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02B710EA1D9529AB0093ED76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		02B710EB1D9529AB0093ED76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02B710ED1D9529AB0093ED76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "second leve/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZY.second-leve";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		02B710EE1D9529AB0093ED76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "second leve/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZY.second-leve";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		02B710F01D9529AB0093ED76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "second leveTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZY.second-leveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/second leve.app/second leve";
+			};
+			name = Debug;
+		};
+		02B710F11D9529AB0093ED76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "second leveTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZY.second-leveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/second leve.app/second leve";
+			};
+			name = Release;
+		};
+		02B710F31D9529AB0093ED76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "second leveUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZY.second-leveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "second leve";
+			};
+			name = Debug;
+		};
+		02B710F41D9529AB0093ED76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "second leveUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZY.second-leveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "second leve";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02B710B71D9529AB0093ED76 /* Build configuration list for PBXProject "second leve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B710EA1D9529AB0093ED76 /* Debug */,
+				02B710EB1D9529AB0093ED76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02B710EC1D9529AB0093ED76 /* Build configuration list for PBXNativeTarget "second leve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B710ED1D9529AB0093ED76 /* Debug */,
+				02B710EE1D9529AB0093ED76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		02B710EF1D9529AB0093ED76 /* Build configuration list for PBXNativeTarget "second leveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B710F01D9529AB0093ED76 /* Debug */,
+				02B710F11D9529AB0093ED76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		02B710F21D9529AB0093ED76 /* Build configuration list for PBXNativeTarget "second leveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B710F31D9529AB0093ED76 /* Debug */,
+				02B710F41D9529AB0093ED76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		02B710CB1D9529AB0093ED76 /* second_leve.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				02B710CC1D9529AB0093ED76 /* second_leve.xcdatamodel */,
+			);
+			currentVersion = 02B710CC1D9529AB0093ED76 /* second_leve.xcdatamodel */;
+			path = second_leve.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 02B710B41D9529AB0093ED76 /* Project object */;
+}
